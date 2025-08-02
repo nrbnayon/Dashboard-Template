@@ -637,7 +637,7 @@ export const DynamicTable: React.FC<DynamicTableProps> = ({
   return (
     <div
       className={cn(
-        "space-y-5 border border-primary/30 p-4 mt-4 rounded-2xl",
+        "space-y-5 border border-primary/30 p-2 md:p-4 mt-4 rounded-2xl",
         config.className
       )}
     >

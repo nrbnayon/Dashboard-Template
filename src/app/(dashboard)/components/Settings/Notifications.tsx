@@ -506,7 +506,7 @@ export default function Notifications() {
   const unreadCount = notifications.filter((n) => !n.isRead).length;
 
   return (
-    <div className='p-6'>
+    <div className='md:p-6'>
       {/* Header */}
       <div className='flex flex-col sm:flex-row sm:items-center justify-between mb-6 gap-4'>
         <div className='flex items-center space-x-3'>
@@ -679,7 +679,7 @@ export default function Notifications() {
               disabled={currentPage === 1}
             >
               <ChevronLeft className='w-4 h-4' />
-              Previous
+              
             </Button>
             <div className='flex items-center gap-1'>
               {Array.from({ length: totalPages }, (_, i) => i + 1)
@@ -718,7 +718,7 @@ export default function Notifications() {
               }
               disabled={currentPage === totalPages}
             >
-              Next
+              
               <ChevronRight className='w-4 h-4' />
             </Button>
           </div>

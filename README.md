@@ -1,6 +1,4 @@
-# PrimeFlow - SAAS CRM Client
-
-A comprehensive SAAS-based CRM client application built with Next.js. This platform combines HR testing, financial management, AI-powered chat assistance, and complete business analytics in one unified dashboard.
+# Admin Dashboard
 
 ## Features
 
@@ -13,21 +11,6 @@ A comprehensive SAAS-based CRM client application built with Next.js. This platf
 - **Overview Dashboard**: Comprehensive business metrics and KPI tracking
 - **Reports & Analytics**: Generate detailed reports across all business functions
 - **Account Management**: User profile and account settings
-
-### 👥 HR Management
-- **HR Test Creation**: Create custom HR assessment questions and tests to evaluate candidates
-- **Performance Analytics**: Track HR performance metrics with detailed analytics
-- **Candidate Evaluation**: Comprehensive testing and evaluation system
-
-### 💰 Financial Management
-- **Financial Planning**: Complete financial tracking and planning tools
-- **Account Management**: Manage multiple financial accounts and transactions
-- **Expense Tracking**: Monitor income, expenses, VAT, and savings
-
-### 🤖 AI Integration
-- **AI Chat Assistant**: Intelligent chat interface for business queries and automation
-- **Smart Recommendations**: AI-powered insights and recommendations
-- **Automated Workflows**: Streamline business processes with AI assistance
 
 ### ⚡ Additional Features
 - **Upgrade System**: Subscription management and plan upgrades
@@ -110,17 +93,6 @@ saas-based-crm-client/
 │   │   │   ├── layout.tsx
 │   │   │   └── loading.tsx
 │   │   ├── (dashboard)/      # Dashboard routes group
-│   │   │   ├── accounts/
-│   │   │   ├── chat-ai/
-│   │   │   ├── components/
-│   │   │   ├── financial-plan/
-│   │   │   ├── hr-test/
-│   │   │   ├── overview/
-│   │   │   ├── profile/
-│   │   │   ├── reports/
-│   │   │   ├── upgrade/
-│   │   │   ├── layout.tsx
-│   │   │   └── loading.tsx
 │   │   ├── api/              # API routes
 │   │   ├── globals.css       # Global styles
 │   │   ├── layout.tsx        # Root layout

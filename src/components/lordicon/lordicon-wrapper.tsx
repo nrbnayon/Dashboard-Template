@@ -94,7 +94,7 @@ const Lordicon = forwardRef<HTMLElement, LordiconProps>(
       if (isActive) {
         // Active state colors
         if (isDark && darkColors) return darkColors;
-        return colors || { primary: "#4dba28", secondary: "#4bb3fd" };
+        return colors || { primary: "#4693D9", secondary: "#4bb3fd" };
       }
 
       if (isHovered) {
@@ -102,7 +102,7 @@ const Lordicon = forwardRef<HTMLElement, LordiconProps>(
         if (isDark && darkHoverColors) return darkHoverColors;
         if (hoverColors) return hoverColors;
         if (isDark && darkColors) return darkColors;
-        return colors || { primary: "#4dba28", secondary: "#4bb3fd" };
+        return colors || { primary: "#4693D9", secondary: "#4bb3fd" };
       }
 
       // Default state colors

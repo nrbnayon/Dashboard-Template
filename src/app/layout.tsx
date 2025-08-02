@@ -39,9 +39,9 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "SoftwareApplication",
-              name: "DESCUBRELO COLORADO App Dashboard",
-              description: "DESCUBRELO COLORADO App Dashboard",
-              applicationCategory: "DESCUBRELO COLORADO App",
+              name: "MilkMix Admin Dashboard",
+              description: "MilkMix Admin Dashboard",
+              applicationCategory: "MilkMix Admin App",
               operatingSystem: "Web",
             }),
           }}

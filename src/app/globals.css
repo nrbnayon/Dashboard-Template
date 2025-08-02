@@ -84,26 +84,26 @@
   --card-foreground: #4a4a4a;
   --popover: #ffffff;
   --popover-foreground: #4a4a4a;
-  --primary: #4dba28;
+  --primary: #4693d9;
   --primary-foreground: #ffffff;
   --secondary: #f2f2f2;
   --secondary-foreground: #4a4a4a;
   --muted: #f2f2f2;
   --muted-foreground: #908f90;
   --accent: #effce9;
-  --accent-foreground: #4dba28;
+  --accent-foreground: #4693d9;
   --destructive: #f04438;
   --border: #d7d5d7;
   --input: #fafafa;
   --ring: #a6a6a6;
 
-  /* Custom DESCUBRELO COLORADO colors for light mode */
+  /* Custom MilkMix colors for light mode */
   --error: #f04438;
   --error-dark: #b42318;
   --error-bg: #fef3f2;
   --success: #12b76a;
   --success-dark: #027a48;
-  --success-light: #4dba28;
+  --success-light: #4693d9;
   --success-bg: #ecfdf3;
   --purple-light: #c7b9da;
   --purple-dark: #6941c6;
@@ -125,7 +125,7 @@
   --charcoal: #252b37;
 
   /* Chart colors for light mode */
-  --chart-1: #4dba28;
+  --chart-1: #4693d9;
   --chart-2: #12b76a;
   --chart-3: #6941c6;
   --chart-4: #175cd3;
@@ -134,7 +134,7 @@
   /* Sidebar colors for light mode */
   --sidebar: #ffffff;
   --sidebar-foreground: #4a4a4a;
-  --sidebar-primary: #4dba28;
+  --sidebar-primary: #4693d9;
   --sidebar-primary-foreground: #ffffff;
   --sidebar-accent: #f2f2f2;
   --sidebar-accent-foreground: #4a4a4a;
@@ -150,7 +150,7 @@
   --card-foreground: #ffffff;
   --popover: #252b37;
   --popover-foreground: #ffffff;
-  --primary: #4dba28;
+  --primary: #4693d9;
   --primary-foreground: #234d1a;
   --secondary: #414651;
   --secondary-foreground: #ffffff;
@@ -169,7 +169,7 @@
   --error-bg: #fef3f2;
   --success: #12b76a;
   --success-dark: #027a48;
-  --success-light: #4dba28;
+  --success-light: #4693d9;
   --success-bg: #ecfdf3;
   --purple-light: #c7b9da;
   --purple-dark: #6941c6;
@@ -191,7 +191,7 @@
   --charcoal: #252b37;
 
   /* Chart colors for dark mode */
-  --chart-1: #4dba28;
+  --chart-1: #4693d9;
   --chart-2: #12b76a;
   --chart-3: #6941c6;
   --chart-4: #175cd3;
@@ -200,7 +200,7 @@
   /* Sidebar colors for dark mode */
   --sidebar: #252b37;
   --sidebar-foreground: #ffffff;
-  --sidebar-primary: #4dba28;
+  --sidebar-primary: #4693d9;
   --sidebar-primary-foreground: #234d1a;
   --sidebar-accent: #414651;
   --sidebar-accent-foreground: #ffffff;
@@ -465,7 +465,7 @@
     @apply bg-gradient-to-b from-[var(--sidebar)] to-[var(--sidebar-accent)];
   }
 
-  .gradient-colorado {
+  .gradient-milkmix {
     @apply bg-gradient-to-r from-[var(--primary)] to-[var(--sage-green)];
   }
 
@@ -586,16 +586,16 @@
     @apply bg-gradient-to-r from-[var(--primary)] to-[var(--success)] bg-clip-text text-transparent;
   }
 
-  .text-gradient-colorado {
+  .text-gradient-milkmix {
     @apply bg-gradient-to-r from-[var(--primary)] to-[var(--sage-green)] bg-clip-text text-transparent;
   }
 
   .bg-sidebar-gradient {
-    background: radial-gradient(ellipse at center, #4dba28 0%, #234d1a 100%);
+    background: radial-gradient(ellipse at center, #4693d9 0%, #234d1a 100%);
   }
 
-  .bg-colorado-gradient {
-    background: linear-gradient(135deg, #4dba28 0%, #12b76a 50%, #38941c 100%);
+  .bg-milkmix-gradient {
+    background: linear-gradient(135deg, #4693d9 0%, #12b76a 50%, #38941c 100%);
   }
 
   /* Custom scrollbar utilities */
@@ -646,41 +646,43 @@
   }
 
   /* Smooth transitions for all interactive elements */
-* {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+  * {
+    transition-property: color, background-color, border-color,
+      text-decoration-color, fill, stroke, opacity, box-shadow, transform,
+      filter, backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
-  /* DESCUBRELO COLORADO specific utilities */
-  .colorado-card {
+  /* MilkMix specific utilities */
+  .milkmix-card {
     @apply bg-white border border-[var(--border)] rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200;
   }
 
-  .colorado-button {
+  .milkmix-button {
     @apply bg-primary text-white font-medium px-4 py-2 rounded-lg hover:bg-[var(--primary)]/90 transition-colors duration-200;
   }
 
-  .colorado-input {
+  .milkmix-input {
     @apply bg-[var(--input)] border border-[var(--border)] rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[var(--primary)]/20 focus:border-[var(--primary)];
   }
 
-  .colorado-text-heading {
+  .milkmix-text-heading {
     @apply font-bold text-[var(--foreground)];
   }
 
-  .colorado-text-body {
+  .milkmix-text-body {
     @apply font-normal text-[var(--muted-foreground)];
   }
 
-  .colorado-badge-success {
+  .milkmix-badge-success {
     @apply bg-[var(--success-bg)] text-[var(--success-dark)] px-2 py-1 rounded-full text-xs font-medium;
   }
 
-  .colorado-badge-error {
+  .milkmix-badge-error {
     @apply bg-[var(--error-bg)] text-[var(--error-dark)] px-2 py-1 rounded-full text-xs font-medium;
   }
 
-  .colorado-badge-primary {
+  .milkmix-badge-primary {
     @apply bg-[var(--accent)] text-[var(--primary)] px-2 py-1 rounded-full text-xs font-medium;
   }
 }

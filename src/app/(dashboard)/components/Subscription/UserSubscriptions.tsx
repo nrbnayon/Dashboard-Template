@@ -277,7 +277,7 @@ export default function UserSubscriptions({
       label: "Edit",
       icon: (
         <Lordicon
-          src="https://cdn.lordicon.com/cbtlerlm.json" //cbtlerlm
+          src="https://cdn.lordicon.com/cbtlerlm.json" 
           trigger="hover"
           size={20}
           colors={{
