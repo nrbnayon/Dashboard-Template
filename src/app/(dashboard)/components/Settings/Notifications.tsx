@@ -506,7 +506,7 @@ export default function Notifications() {
   const unreadCount = notifications.filter((n) => !n.isRead).length;
 
   return (
-    <div className='md:p-6'>
+    <div className='p-3 md:p-6'>
       {/* Header */}
       <div className='flex flex-col sm:flex-row sm:items-center justify-between mb-6 gap-4'>
         <div className='flex items-center space-x-3'>

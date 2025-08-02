@@ -5,7 +5,7 @@ import Lordicon from "@/components/lordicon/lordicon-wrapper";
 
 export default function AboutPage() {
   return (
-    <div className="p-6">
+    <div className="p-3 md:p-6">
       <div className="flex items-center space-x-3 mb-6">
         <Info className="w-6 h-6 text-primary" />
         <div>
@@ -19,8 +19,13 @@ export default function AboutPage() {
         <div className="border border-primary/30 rounded-lg p-6">
           <div className="text-center mb-6">
             <div className="w-full flex justify-center items-center">
-              {" "}
-              <Image src="/logo1.png" alt="logo" width={200} height={200} />
+              <Image
+                src="/logo.png"
+                alt="logo"
+                width={120}
+                height={120}
+                className="w-[100px] h-[100px] md:w-[200px] md:h-[200px]"
+              />
             </div>
             <p className="text-gray-600">Version 1.0.0</p>
           </div>
